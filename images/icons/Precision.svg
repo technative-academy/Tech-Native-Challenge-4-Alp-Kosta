@@ -1,0 +1,9 @@
+<svg width="56" height="56" viewBox="0 0 56 56" aria-label="Precision" role="img" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="28" cy="28" r="28" fill="#DBEAFE"/>
+  <g transform="translate(16,16)" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="9"/>
+    <path d="M12 12l4-2"/>
+    <path d="M12 7v5"/>
+    <path d="M12 3v2M21 12h-2M12 21v-2M3 12h2"/>
+  </g>
+</svg>
