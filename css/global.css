@@ -3,12 +3,13 @@
 @import url('./footer.css');
 @import url('./tabSection.css');
 @import url('./about.css');
-
+@import url('./facts.css');
 
 body {
   color: var(--color-text-body);
   background: var(--color-bg-surface);
   margin: 0;
+  font-family: var(--font-sans);
 }
 
 a {

@@ -1,0 +1,16 @@
+.section__facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto repeat(2, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 30px;
+  padding: 10vh 10%;
+}
+.facts__title {
+  grid-area: 1 / 1 / 2 / 4;
+  text-align: center;
+}
+
+.fact__title {
+  margin: 5px 0;
+}

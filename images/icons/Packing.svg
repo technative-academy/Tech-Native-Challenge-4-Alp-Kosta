@@ -1,0 +1,10 @@
+<svg width="56" height="56" viewBox="0 0 56 56" aria-label="Luxury packaging" role="img" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="28" cy="28" r="28" fill="#FEF3C7"/>
+  <g transform="translate(16,16)" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 8h16v13H4z"/>
+    <path d="M4 12h16"/>
+    <path d="M12 8v13"/>
+    <path d="M7 8c0-2 1.5-3 3-3 2 0 2.5 1.5 2 3"/>
+    <path d="M17 8c0-2-1.5-3-3-3-2 0-2.5 1.5-2 3"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="56" height="56" viewBox="0 0 56 56" aria-label="Fast delivery" role="img" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="28" cy="28" r="28" fill="#FEE2E2"/>
+  <g transform="translate(16,16)" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 7h11v10H3z"/>
+    <path d="M14 10h4l3 3v4h-7z"/>
+    <circle cx="7" cy="19" r="1.5"/>
+    <circle cx="18" cy="19" r="1.5"/>
+    <path d="M3 10H1M3 13H2"/>
+  </g>
+</svg>
