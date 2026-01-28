@@ -37,13 +37,10 @@
   color: inherit;
 }
 
-header{
-    background-color: #fbfafe;
+header {
+  background-color: #fbfafe;
 }
 
-
-
-    
 .image-list {
   list-style: none;
   display: flex;

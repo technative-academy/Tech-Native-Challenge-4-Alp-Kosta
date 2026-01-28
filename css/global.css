@@ -3,6 +3,7 @@
 @import url('./footer.css');
 @import url('./tabSection.css');
 @import url('./facts.css');
+@import url('./quotes.css');
 
 body {
   color: var(--color-text-body);
@@ -42,6 +43,7 @@ li {
   font-size: var(--body-size);
   line-height: var(--body-line);
   margin: 0 0 1em;
+  color: var(--color-text-body);
 }
 
 /* Mobile typography */
