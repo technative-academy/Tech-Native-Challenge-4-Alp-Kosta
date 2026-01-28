@@ -1,3 +1,10 @@
+/*  
+
+
+
+
+
+
 h1{
     font-family:"Semi-Bold";
     color: #35414B;
@@ -24,3 +31,78 @@ body{
 header{
     background-color: #fbfafe;
 }
+
+
+
+
+*/
+
+
+.tabs-frame-image{
+    
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-top: 50px;
+    width:615px;
+    height:422px;
+    border-radius: 100px;
+    
+}
+
+.tabs__columns{
+     display: flex;
+     justify-content:space-around; 
+     margin-bottom: 50px;
+
+}
+
+
+.tabs__column__button button{
+     
+    border: none;
+    display: flex;
+    justify-content:space-around; 
+    margin: auto;
+    height: 80px;
+    width: 500px;
+    background-color: transparent;
+     
+}
+
+
+.tabs__column__button {
+     
+   margin-top: 100px;
+     
+
+}
+
+.tabs__column p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family:sans-serif;
+    text-align: center;
+
+}
+
+
+
+#btn__button:hover{
+    background-color:#f6f3fc ;
+}
+
+
+
+.custom-button {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+
+    
