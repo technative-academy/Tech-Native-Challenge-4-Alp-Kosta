@@ -5,6 +5,7 @@
 body {
   color: var(--color-text-body);
   background: var(--color-bg-surface);
+  margin: 0;
 }
 
 a {
