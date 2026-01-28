@@ -1,34 +1,17 @@
-footer{
-    background-color: #1d2830;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
-   
-    
+.footer-heading {
+  color: white;
 }
 
-.footer-heading{
-    color:white;
-    margin-left: 200px;
+.footer-center-align {
+  text-align: center;
+  margin: auto;
 }
-
-.footer-center-align{
-    text-align: center;
-    margin: auto;
-}
-
 
 footer {
-  background-color: #1d2830; 
+  background-color: #1d2830;
   color: #ffffff;
   padding: 60px 20px 30px;
   font-family: sans-serif;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
 
 .footer-container {
@@ -39,7 +22,7 @@ footer {
 /* Column Structure */
 .footer-columns {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   margin-bottom: 50px;
 }
 
@@ -59,7 +42,7 @@ footer {
 }
 
 .footer-column ul li a {
-  color: #a0aab2; 
+  color: #a0aab2;
   text-decoration: none;
   font-size: 14px;
   transition: color 0.3s;
@@ -71,7 +54,7 @@ footer {
 
 /* Bottom Bar (Copyright ve Icons) */
 .footer-bottom {
-  border-top: 1px solid #2d3740; 
+  border-top: 1px solid #2d3740;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -87,7 +70,7 @@ footer {
 
 .social-icons a {
   color: #ffffff;
-  background: #333c44; 
+  background: #333c44;
   width: 35px;
   height: 35px;
   display: flex;

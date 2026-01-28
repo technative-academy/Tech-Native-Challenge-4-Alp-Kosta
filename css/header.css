@@ -1,31 +1,40 @@
-/*  
-
-
-
-
-
-
-h1{
-    font-family:"Semi-Bold";
-    color: #35414B;
-
+.header {
+  background-color: #fbfafe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__title {
+  width: 60%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-h2{
-    font-family:"Semi-Bold";
-     color: #35414B;
+.header__image {
+  width: 70%;
+  border-radius: 30px;
+  margin: 30px 0px;
 }
 
-h3{
-    font-family:"Semi-Bold";
-     color: #35414B;
+.header__logo {
+  width: 100px;
 }
 
+.navbar__menu {
+  display: flex;
+  gap: 100px;
+  list-style: none;
+  padding: 0;
+}
+.navbar__item:hover {
+  color: var(--color-primary);
+  cursor: pointer;
+}
 
-body{
-    font-family: "Regular";
-    color: #4e5a65;;
-    
+.navbar__link {
+  text-decoration: none;
+  color: inherit;
 }
 
 header{
@@ -106,3 +115,14 @@ header{
 
 
     
+.image-list {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+  margin-top: 0px;
+}
+.image-list__logo {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+}

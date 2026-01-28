@@ -1,13 +1,45 @@
-#btn-primary{
-    color:#796eff;
+#btn-primary {
+  color: #796eff;
+}
 
+#btn-primary-tint {
+  color: #f6f3fc;
 }
 
 #btn-primary-tint{
     background-color:#f6f3fc ;
     
+.product-small {
+  border-radius: 30px;
 }
 
-.product-small{
-    border-radius: 30px;
+:root {
+  --color-primary: #796eff;
+  --color-primary-light: #f6f3fc;
+
+  --color-text-heading: #35414b;
+  --color-text-body: #4e5a65;
+
+  --color-bg-surface: #fbfafe; /* header / blocks */
+  --color-bg-footer: #1d2830;
+
+  --font-sans: 'Inter', sans-serif;
+
+  /* weights */
+  --fw-regular: 400;
+  --fw-semibold: 600;
+
+  /* desktop heading sizes */
+  --h1-size: 64px;
+  --h1-line: 76px;
+
+  --h2-size: 40px;
+  --h2-line: 48px;
+
+  --h3-size: 28px;
+  --h3-line: 36px;
+
+  /* body */
+  --body-size: 16px;
+  --body-line: 24px;
 }
