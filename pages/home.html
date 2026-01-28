@@ -5,9 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="/css/global.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
   </head>
   <body>
-    <header></header>
+    <header class="header">
+      <img class="header__logo" src="/images/logo.svg" />
+      <navbar class="navbar">
+        <ul class="navbar__menu">
+          <li class="navbar__item navbar__item--active">
+            <a href="#" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/pages/products.html" class="navbar__link">Products</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/pages/about.html" class="navbar__link">About</a>
+          </li>
+        </ul>
+      </navbar>
+      <h1 class="header__title">Timeless Elegance, Crafted for Every Moment</h1>
+      <p>
+        Discover a curated collection of watches that blend precision, style,
+        and durability.
+      </p>
+      <img class="header__image" src="/images/HeaderWatch.jpg" />
+      <p>TRUSTED BY SOME COMPANIES YOU MIGHT HAVE HEARD OF</p>
+      <ul class="image-list">
+        <img src="/images/Bvlgari-Logo.svg" class="image-list__logo" />
+        <img src="/images/Patek_Philippe_Logo.svg" class="image-list__logo" />
+        <img src="/images/Rolex-Logo.svg" class="image-list__logo" />
+        <img src="/images/TAG-Heuer-Logo.svg" class="image-list__logo" />
+        <img src="/images/Tissot-Logo.svg" class="image-list__logo" />
+      </ul>
+    </header>
     <main>
       <div class="section__tabs"></div>
       <div class="section__facts"></div>
