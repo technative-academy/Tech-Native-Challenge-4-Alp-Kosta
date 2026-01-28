@@ -1,0 +1,84 @@
+
+.about-frame-image{
+    
+    
+    width:615px;
+    height:422px;
+    border-radius: 100px;
+
+   
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.about-column-left{
+    margin: 100px;
+    margin-right: 150px;
+}
+
+.about-column-map{
+    margin-top: 45px;
+    
+}
+
+
+.about__columns{
+     display: flex;
+     justify-content:space-evenly; 
+     
+
+}
+
+
+.submit-btn {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    background-color: #7d70ff; 
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.submit-btn:hover { background-color: #6558e6; }
+
+.about-header{
+    font-family: sans-serif;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-group{
+    margin:0px 25px 25px 25px;
+}
+
+.about-label{
+    font-family:sans-serif;
+    font-weight: bold;
+    
+}
+
+textarea {
+    width: 100%;       /* Kapsayıcısının tamamını kaplar */
+    height: 200px;     /* Sabit yükseklik verir */
+    min-height: 150px; /* Kullanıcının kutuyu çok fazla küçültmesini engeller */
+    max-height: 500px; /* Kutunun aşırı büyümesini engeller */
+    padding: 15px;     /* İçindeki metnin kenarlara yapışmamasını sağlar */
+}
+
+
+
+
