@@ -59,6 +59,14 @@
 
 
 
+#btn__button.btn-active{
+     background-color:#f6f3fc ;
+    border-left: 12px solid #796eff;
+}
+ 
+
+
+
 #btn__button:hover{
     background-color:#f6f3fc ;
     border-left: 12px solid #796eff;
@@ -67,7 +75,9 @@
 
 
 
-.custom-button {
+
+
+.btn__button__button {
   
   flex-direction: column; 
   align-items: center;    
