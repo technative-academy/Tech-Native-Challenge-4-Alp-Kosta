@@ -10,6 +10,8 @@
     <title>Home</title>
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1"></script>
   </head>
   <body>
     <header class="header">
@@ -188,7 +190,11 @@
           </li>
         </ul>
       </div>
-      <div class="stats"></div>
+      <div class="stats">
+        <h2>Our Growth, Powered by Trust</h2>
+        <p>Every day, more people choose our watches. This chart shows how our community and orders have grown over time — a reflection of quality, reliability, and word-of-mouth.</p>
+        <canvas id="growthChart" width="400" height="200"></canvas>
+      </div>
     </main>
 
     <footer class="site-footer">
@@ -225,6 +231,6 @@
     </footer>
     <script type="module" src="./js/quotes.js"></script>
     <script type="module" src="./js/tabs.js"></script>
-    
+    <script type="module" src="./js/stats.js"></script>
   </body>
 </html>
