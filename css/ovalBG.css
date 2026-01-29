@@ -1,0 +1,17 @@
+.oval {
+  position: absolute;
+  box-sizing: content-box;
+  inset: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+.oval svg {
+  position: absolute;
+  width: clamp(1400px, 180vw, 2800px);
+  height: clamp(900px, 150vh, 2200px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.oval path {
+  fill: var(--color-primary-light);
+}

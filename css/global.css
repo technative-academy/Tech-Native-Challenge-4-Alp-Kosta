@@ -6,6 +6,7 @@
 @import url('./facts.css');
 @import url('./quotes.css');
 @import url('./stats.css');
+@import url('./ovalBG.css');
 
 body {
   color: var(--color-text-body);
