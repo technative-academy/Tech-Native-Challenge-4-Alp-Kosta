@@ -8,49 +8,68 @@ const tabsTexts = {
 
 
 
-const myTabElement = document.querySelector('.tabs__column__button');
+const myTabElements = document.querySelectorAll('#btn__button');
 const tabsElements = Array.from(document.getElementsByClassName('btn__button__button'));
 const myImage = document.querySelector('.tabs-frame-image');
 
 
 
+myTabElements.forEach((tabs) => {
+  tabs.addEventListener('click', () => changeTabs(tabs));
+  console.log(tabs);
+});
 
-myTabElement.addEventListener("click",changeTabs);
 
 
-function changeTabs(e){
 
 
-        let expression = e.target.className
-        console.log(expression);
-        changeTabsActivation();
-        e.target.classList.add("btn-active");
+
+function changeTabs(tabParameterValue){
+
+
+    console.log(tabParameterValue);
+
+    changeTabsActivation();
+
+    tabParameterValue.classList.add("btn-active");
+
+    
+
+    
+    
+    let expression = tabParameterValue.className;
+    console.log(expression);
+        
         
 
        switch(expression) {
-        case "btn__button__button tabFirst":
+        case "btn__button__button tabFirst btn-active":
             console.log("Rolex Resmi");
             myImage.src="./images/Rolex.jpg";
             break;
-        case "btn__button__button tabSecond":
+        case "btn__button__button tabSecond btn-active":
             console.log("Omega Resmi");
              myImage.src="./images/Omega.jpg"
             break;
-        case "btn__button__button tabThird":
+        case "btn__button__button tabThird btn-active":
             console.log("Palet Resmi");
             myImage.src="./images/Patek.jpg"
             break;
-        case "btn__button__button tabFourth":
+        case "btn__button__button tabFourth btn-active":
             console.log("Tah Heuer Resmi");
             myImage.src="./images/TAG-Heuer.jpg"
             break;
         default:
-            console.log("Bir sıkıntı var");
+            console.log("There is a problem in here.");
+    }
+    
+   
+       
 }
         
         
     
-}
+
 
 function changeTabsActivation() {
   tabsElements.forEach((tab) => {
