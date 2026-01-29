@@ -12,14 +12,14 @@ const tabsElements = Array.from(
 const myImage = document.querySelector('.tabs-frame-image');
 
 tabsElements.forEach((btn) => {
-  btn.addEventListener('click', () => changeTabs(btn));
+  btn.addEventListener('click', changeTabs);
 });
 
-function changeTabs(btn) {
-  let expression = btn.className;
+function changeTabs(e) {
+  let expression = e.currentTarget.className;
   console.log(expression);
   changeTabsActivation();
-  btn.classList.add('btn-active');
+  e.currentTarget.classList.add('btn-active');
 
   switch (expression) {
     case 'btn__button__button tabFirst':
